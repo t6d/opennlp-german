@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'opennlp/german/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "opennlp-german"
-  spec.version       = Opennlp::German::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["Konstantin Tennhard"]
   spec.email         = ["me@t6d.de"]
   spec.description   = %q{TODO: Write a gem description}
